@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Cosmos Candies - Contact</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="style.css" rel="stylesheet">
+	<link href="images/favicon.ico" rel="icon" type="image/x-icon">
+</head>
+
+<body>
+	<nav>
+		<a href="index.html" title="Cosmos Candies Home"><img src="images/logo.png" alt="Cosmos Candies Logo" width="275" height="100"></a>
+		<ul>
+			<li><a href="index.html" title="Home Page" style="padding-left:0">HOME</a></li>
+			<li><a href="about.html" title="About Us">ABOUT</a></li>
+			<li><a href="products.html" title="Our Products">PRODUCTS</a></li>
+			<li><a href="contact.html" title="Contact Us" style="padding-right:0">CONTACT</a></li>
+		</ul>
+	</nav>
+	
+	<main class="main-content">
+		<h1>Contact Us</h1>
+		<p>Are you looking for a unique or customized candy and cannot find it on our website? Fill out the form below and we will work with you to meet your candy-craving needs!
+		<form method="get">
+			<fieldset>
+				<legend>Personal Info</legend>
+				<div class="contact-form-field">
+					<label for="fname">*First Name:</label>
+					<input type="text" name="fname" id="fname" required="required">
+				</div>
+				<div class="contact-form-field">
+					<label for="lname">*Last Name:</label>
+					<input type="text" name="lname" id="lname" required="required">
+				</div>
+				<div class="contact-form-field">
+					<label for="email">*Email:</label>
+					<input type="email" name="email" id="email" required="required">
+				</div>
+				<div class="contact-form-field">
+					<label for="phone">*Phone Number:</label>
+					<input type="tel" name="phone" id="phone" required="required">
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Inquiry</legend>
+				<label for="contactpref" id="contactpreflabel">*Preferred Contact Method:</label>
+				<input type="radio" name="contactpref" value="phone" required="required">Phone<br>
+				<input type="radio" name="contactpref" value="email" required="required">Email<br>
+				<div class="contact-form-field">
+					<label for="description">*Description of Candy Request:</label>
+					<textarea name="description" id="description" required="required" cols="25" rows="4"></textarea>
+				</div>
+			</fieldset>
+				<input type="submit" value="Submit Request" id="submit">
+		</form>
+	</main>
+	
+	<footer>
+		<p class="footer-text">&copy; Cosmos Candies. All Rights Reserved.</p>
+	</footer>
+</body>
+
+</html>
